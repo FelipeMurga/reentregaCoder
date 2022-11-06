@@ -1,0 +1,965 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    text-align: center;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.divsito{
+    text-decoration: none;
+}
+
+.fondoindex{
+    background-image: url(../img/familia-feliz-con-los-niños-y-el-perro-en-parque-130889197.jpg);
+}
+
+
+.menu{
+    position: sticky;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+h1{
+color: rgb(61, 151, 151);
+font-family: helvetica;
+font-size: 40px;
+padding-inline-start: 0%;
+background-color: black;
+display: inline-block;
+text-align: center;
+
+}
+
+h1 span{
+color: gold;
+}
+
+header div nav{
+    text-align: center;
+}
+
+
+
+h2{
+    color: rgb(61, 151, 151);
+    text-align: center;
+    font-size: 60px;
+background-color: rgb(0, 0, 0);
+display: inline-block;
+}
+
+.spanh2{
+    color: gold;
+}
+
+
+.subtitulo{
+text-align: center;
+}    
+
+
+
+
+body{
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+
+
+.registracion{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.carlos{
+    text-decoration: none;
+}
+
+.carlos section{
+    text-decoration: none;
+}
+
+
+.carlos section div{
+    text-decoration: none;
+}
+
+
+h3{
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+color: rgb(61, 151, 151);
+font-size: 45px;
+display: inline-block;
+}
+
+
+.pregunta-cuenta{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.copete{
+
+text-align: center;
+}
+
+
+
+
+.pregunta{
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+background-color: rgb(0, 0, 0);
+display: inline-block;
+}
+
+/*-------------HEADEAR-------------*/
+
+
+.principal{
+    background-color: gold(255, 255, 255);
+    display: inline-flex
+    
+    }
+
+.principal a{
+    border: 1px solid beige;
+    color: gold;
+    text-decoration: none;
+  background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 27px -4px black;
+    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+    transition: 1s;
+
+    border: 1px solid beige
+    
+
+
+}
+
+.principal a:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1);
+    width: 300px;
+}
+
+
+
+
+
+
+.contactos{
+    background-color: gold(255, 255, 255);
+    display: inline-flex
+}
+
+.contactos a{
+    border: 1px solid beige;
+    color: gold;
+    text-decoration: none;
+  background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 27px -4px black;
+    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+    transition: 1s;
+}
+
+
+.contactos a:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1);    
+    width: 300px;
+}
+
+
+
+
+
+
+.sesion{
+    background-color: gold(255, 255, 255);
+    display: inline-flex
+    
+}
+
+.sesion a{
+    border: 1px solid beige;
+    color: gold;
+    text-decoration: none;
+  background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 27px -4px black;
+    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+    transition: 1s;
+}
+
+.sesion a:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1);
+    width: 300px;
+}
+
+
+
+.compra{
+    background-color: gold(255, 255, 255);
+    display: inline-flex
+}
+
+.compra a{
+    border: 1px solid beige;
+    color: gold;
+    text-decoration: none;
+  background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 27px -4px black;
+    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+    transition: 1s;
+
+
+}
+
+.compra a:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1);
+    width: 300px;
+}
+
+
+
+
+.registrate{
+    background-color: gold(255, 255, 255);
+    display: inline-flex
+}
+
+.registrate a{
+    border: 1px solid beige;
+    color: gold;
+    text-decoration: none;
+  background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 27px -4px black;
+    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+    transition: 1s;
+}
+
+.registrate a:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1);
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.imagen1{
+    width: 300px;
+    height: auto;
+    margin: auto;
+display: flex;
+justify-content: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------FOOTER-------*/
+
+.pie-pagina{
+    width: 100%;
+    background-color:  rgb(61, 151, 151);
+
+}
+
+.box{
+    text-decoration: none;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.pie-pagina .grupo1 .box figure img{
+    width: 250px;
+
+}
+
+
+
+.pie-pagina .grupo1 .box h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+
+
+.pie-pagina .grupo1 .box p{
+    color: aliceblue;
+    margin-bottom: 10px;
+
+}
+
+.red-social{
+    text-decoration: none;
+}
+
+.pie-pagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 600ms ease;
+}
+.pie-pagina .grupo1 .red-social a:hover{
+    color: gold
+}
+    
+
+
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+
+/*----------Registrarse ccs-------------*/
+
+
+
+.fondoregistro{
+    background: rgb(174,238,237);
+    background: radial-gradient(circle, rgba(174,238,237,1) 0%, rgba(224,255,0,1) 100%);}
+    
+
+
+
+.formulario-registro {
+    width: 400px;
+    height: 400px;
+    line-height: 30px;
+    background-color:gold;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px 13px 25px black
+    
+}
+
+.formulario-registro h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.controles{
+    width: 100%;
+    background-color:rgb(61, 151, 151) ;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(61, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.formulario-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.formulario-registro a{
+    color: white;
+    text-decoration: none;
+
+} 
+
+
+
+.formulario-registro a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+
+
+.formulario-registro .boton{
+    width: 100%;
+    background-color: black;
+    border: none;
+    padding: 15px;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+     
+}
+
+
+
+
+
+
+
+/*-----------Contacto-------------*/
+
+.formulario-contacto{
+    background: rgb(34,195,191);
+    background: linear-gradient(114deg, rgba(34,195,191,1) 0%, rgba(255,222,97,1) 100%);
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px 13px 25px black
+}
+
+
+.formulario-contacto h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.col-md-4{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0);
+    padding: 0px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(61, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+
+/* .valid-feedback{
+
+} */
+
+
+.form-control{
+    width: 100%;
+    height: 100%;
+    background-color:gold;
+    padding: 0px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(61, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.form-select{
+    width: 100%;
+    height: 100%;
+    background-color:gold;
+    padding: 3px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(61, 151, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ form{
+    text-align: center;
+ } 
+
+
+label{
+    text-align: center;
+}
+
+.col-12{
+
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+
+
+.btn-primary{
+    color: gold;
+    /* background-color: black; */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.form-check{
+    width: 100%;
+    height: 100%;
+color: black;
+    padding: 3px;
+
+    margin-bottom: 15px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Pagina de compra  */
+
+
+.bodycompra{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondaso.jpg);
+
+
+}
+
+
+.contenedor{
+    /* max-width: 300px; */
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h3.nuestros-productos{
+    padding: 2rem;
+    margin: 1rem;
+text-align: center;
+color: gold;
+font-size: 45px;
+
+
+}
+
+
+.productos{
+display: grid;
+grid-template-columns: repeat(1,3fr);
+}
+
+.producto{
+    background-color: rgb(255, 255, 255);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+
+.odwalla{
+    background-color: white;
+    /* height: 20rem; */
+    object-fit: contain;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nombre-producto{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.precio-producto{
+    color: black;
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight:500;
+
+}
+
+
+.odwallafoto{
+width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.ken-lfoto{
+    width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.ganacanfoto{
+    width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+.topfoto{
+    width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+.exactfoto{
+    width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.exellentfoto{
+    width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+/*--------Inicio de sesion---------*/
+
+
+.fondo-inicio{
+
+    margin: 0%;
+    padding: 0%;
+    background: rgb(255,252,0);
+background: radial-gradient(circle, rgba(255,252,0,0.927608543417367) 0%, rgba(0,255,244,0.958420868347339) 100%);
+height: 100vh;
+}
+
+
+.formulario{
+    text-decoration: black;
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+
+}
+
+
+.formulario .TituloInicio{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+     padding: 0 0 40px 0;
+     border-bottom: 1px solid seashell;
+     background-color: none;
+}
+
+
+.formulario form{
+   
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 0;
+}
+
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 0;
+}
+
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 1px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.contraseña input{
+    width: 100%;
+    padding: 0 5px;
+    height: 1px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: gray;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+}
+
+
+
+.contraseña label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: gray;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .3s;
+}
+
+.username span::before{
+    position: absolute;
+    top: 40px;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background-color: burlywood;
+    transition: .3s;
+
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -5px;
+    color:rgb(61, 151, 151);
+}
+
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100%;
+}
+
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background-color:rgb(61, 151, 151);
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+}
+
+input[type="submit"]:hover{
+    border-color: black;
+    transition: .5s;
+}
+
+
+.registrarsse{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.registrarsse a{
+color: blue;
+text-decoration: none;
+}
+
+.registrarsse a:hover{
+    text-decoration: underline;
+}
