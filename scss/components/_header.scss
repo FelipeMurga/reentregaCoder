@@ -1,0 +1,146 @@
+/*------HEADER-------*/
+
+header{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    .titulo{
+        text-align: center;
+    }
+    h1{
+        color: rgb(61, 151, 151);
+        font-family: helvetica;
+        font-size: 40px;
+        padding-inline-start: 0%;
+        background-color:none;
+        display: inline-block;
+        text-align: center;
+        span{
+            color: gold;
+            }
+        
+        }
+
+                .principal{
+                background-color: gold(255, 255, 255);
+                display: inline-flex
+                
+                }
+                    .principal a{
+                    border: 1px solid beige;
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    background-color: gold;
+                    font-size: 25px;
+                    margin-bottom: 15px;
+                    width: 250px;
+                    height: 50px;
+                    text-align: center;
+                    box-shadow: 10px 10px 27px -4px black;
+                    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+                    border: 1px solid beige
+                    text-transform uppercase;
+                    transition: 1s;    
+                    &:hover{
+                    background-color: #3d9797;
+                    color: black;
+                    transform: scale(1);
+                    width: 300px;            
+                    }
+                    
+                             
+                
+                }.contactos{
+                    background-color: gold(255, 255, 255);
+                    display: inline-flex;
+                    
+
+                    
+                    }.contactos a{
+                        border: 1px solid beige;
+                        color: rgb(0, 0, 0);
+                        text-decoration: none;
+                      background-color: gold;
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                        width: 250px;
+                        height: 50px;
+                        text-align: center;
+                        box-shadow: 10px 10px 27px -4px black;
+                        -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+                        text-transform: uppercase;
+                        transition: 1s;
+                        &:hover{
+                            background-color: #3d9797;
+                            color: black;
+                            transform: scale(1);    
+                            width: 300px;
+                    }
+
+                }
+                
+                
+                
+                .sesion{
+                    background-color: gold(255, 255, 255);
+                    display: inline-flex;
+
+                    }.sesion a{
+                        border: 1px solid beige;
+                        color: rgb(0, 0, 0);
+                        text-decoration: none;
+                      background-color: gold;
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                        width: 250px;
+                        height: 50px;
+                        text-align: center;
+                        box-shadow: 10px 10px 27px -4px black;
+                        -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+                        text-transform: uppercase;
+                        transition: 1s;
+                        &:hover{
+                            background-color: #3d9797;
+                            color: black;
+                            transform: scale(1);
+                            width: 300px;
+                    }
+                    
+                }.compra{
+                    background-color: gold(255, 255, 255);
+                    display: inline-flex;
+
+                    }.compra a{
+                        border: 1px solid beige;
+                        color: rgb(0, 0, 0);
+                        text-decoration: none;
+                      background-color: gold;
+                        font-size: 24px;
+                        margin-bottom: 15px;
+                        width: 250px;
+                        height: 50px;
+                        text-align: center;
+                        box-shadow: 10px 10px 27px -4px black;
+                        -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+                        transition: 1s;
+                        &:hover{
+                            background-color: #3d9797;
+                            color: black;
+                            transform: scale(1);
+                            width: 300px;
+                    }
+                }
+            }
+            
+        .subtitulo{
+            text-align: center;h2{
+                color: rgb(61, 151, 151);
+                text-align: center;
+                font-size: 60px;
+            background-color: none;
+            display: inline-block;.spanh2{
+                color: gold;
+            }
+            }
+            }  
+    

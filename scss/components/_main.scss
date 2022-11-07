@@ -1,0 +1,73 @@
+/*-----MAIN------*/ 
+
+
+.carlos{
+    text-decoration: none;
+    section{
+        text-decoration: none;
+        div{
+            text-decoration: none;
+            .imagen1{
+                width: 300px;
+                height: auto;
+                margin: auto;
+            display: flex;
+            justify-content: right;
+            
+            }h3{
+                background-color:none;
+                padding: 1rem;
+                margin: 1rem;
+            color: rgb(61, 151, 151);
+            font-size: 28px;
+            display: inline-block;
+            }
+        }
+    }
+}
+.pregunta-cuenta{
+    text-decoration: none;
+    section{
+        div{
+            .pregunta{
+                color: gold;
+                text-align: center;
+                font-size: 45px;
+            background-color: none;
+            display: inline-block;
+            }
+        }
+    }
+}
+.registracion{
+    
+    section{
+        .registrate{
+            background-color: gold(255, 255, 255);
+            display: inline-flex;
+            li{
+                a{
+                    border: 1px solid beige;
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                  background-color:gold;
+                    font-size: 45px;
+                    margin-bottom: 15px;
+                    width: 250px;
+                    height: 50px;
+                    text-align: center;
+                    box-shadow: 10px 10px 27px -4px black;
+                    -webkit-box-shadow: 10px 10px 27px -4px rgb 000;
+                    text-transform: uppercase;
+                    transition: 1s;
+                    &:hover{
+                        background-color: #3d9797;
+                        color: black;
+                        transform: scale(1);
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

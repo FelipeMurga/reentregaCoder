@@ -1,0 +1,151 @@
+/*---------PAGINADECOMPRA-----------*/ 
+.bodycompra{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondaso.jpg);
+    .contenedor{
+       
+        margin: 0;
+        padding: 0;
+        .nuestros-productos{
+            padding: 2rem;
+            margin: 1rem;
+        text-align: center;
+        color: gold;
+        font-size: 45px;
+            .productiños{
+        color: #3d9797;
+            }
+        
+        
+        
+        }.productos{
+            display: grid;
+            grid-template-columns: repeat(1,3fr);
+            .producto{
+                background-color: rgb(255, 255, 255);
+                margin: 2rem;
+                padding: 2rem;
+                .odwalla{
+                    background-color: white;
+                    
+                    object-fit: contain;
+                    padding: 1rem;
+                    .odwallafoto{
+                        width: 250px;
+                        height: 250px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        }
+                        
+                }.info-producto{
+                    .nombre-producto{
+                        color: black;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }.precio-producto{
+                        color: black;
+                        background-color: gray;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        text-transform: uppercase;
+                        text-align: center;
+                        font-size: 2rem;
+                        font-weight:500;
+                    
+                    }
+                }
+            }
+            }.productos{
+                display: grid;
+                grid-template-columns: repeat(1,3fr);
+                .producto{
+                    background-color: rgb(255, 255, 255);
+                    margin: 2rem;
+                    padding: 2rem;
+                    .ken-l{
+                        .ken-lfoto{
+                            width: 250px;
+                        height: 250px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        }
+                    }
+                }
+                }.productos{
+                    display: grid;
+                    grid-template-columns: repeat(1,3fr);
+                    .producto{
+                        background-color: rgb(255, 255, 255);
+                        margin: 2rem;
+                        padding: 2rem;
+                        .Ganacan{
+                            .ganacanfoto{
+                                width: 250px;
+                            height: 250px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            }
+                        }
+                    }
+                    }.productos{
+                        display: grid;
+                        grid-template-columns: repeat(1,3fr);
+                        .producto{
+                            background-color: rgb(255, 255, 255);
+                            margin: 2rem;
+                            padding: 2rem;
+                            .topfoto{
+                                width: 250px;
+                            height: 250px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            
+                            }
+                        }
+                        }.productos{
+                            display: grid;
+                            grid-template-columns: repeat(1,3fr);
+                            .producto{
+                                background-color: rgb(255, 255, 255);
+                                margin: 2rem;
+                                padding: 2rem;
+                                .Exact{
+                                    .exactfoto{
+                                        width: 250px;
+                                    height: 250px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    }.productos{
+                                        display: grid;
+                                        grid-template-columns: repeat(1,3fr);
+                                        .producto{
+                                            background-color: rgb(255, 255, 255);
+                                            margin: 2rem;
+                                            padding: 2rem;
+                                            .exellent{
+                                                .exellentfoto{
+                                                    width: 250px;
+                                                height: 250px;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                }
+                                            }
+                                        }
+                                        }
+                                }
+                            }
+                            }
+                    
+    
+    }
+}

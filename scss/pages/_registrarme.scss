@@ -1,0 +1,49 @@
+/*---------------Registrarme------------*/ 
+
+.fondoregistro{
+    background: rgb(174,238,237);
+    background: radial-gradient(circle, rgba(174,238,237,1) 0%, rgba(224,255,0,1) 100%);
+    .formulario-registro {
+        width: 400px;
+        height: 500px;
+        line-height: 30px;
+        background-color:gold;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        margin-block-end: 100px;
+        border-radius: 6px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: 10px 13px 25px black;
+        h5{
+            font-size: 25px;
+            margin-bottom: 30px;
+            text-align: center;
+        
+        }.controles{
+            width: 100%;
+            background-color:rgb(61, 151, 151) ;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border: 2px solid rgb(61, 151, 151);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }p{
+            height: 40px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 30px;
+            a{
+                color: rgb(0, 38, 255);
+                text-decoration: none;
+                text-transform: uppercase;
+                &hover{
+                    color: rgb(0, 0, 0);
+                    text-decoration: underline;
+                }      
+            } 
+        }
+        
+    }
+}
